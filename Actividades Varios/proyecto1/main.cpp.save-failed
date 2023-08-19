@@ -1,0 +1,61 @@
+//Nombre:Juan Pablo Rajoy
+//TP Nº:
+//Ejercicio Nº:
+
+#include <iostream>
+using namespace std;
+
+int buscarMinimo(int *vect, int n){
+    int minimo= vect[0];
+    for(int i=1; i<n; i++){
+        if(vect[i]<minimo){
+            minimo=vect[i];
+        }
+    }
+    cout << "El minimo es: " << minimo << endl;
+}
+
+int buscarMaximo(int *vect, int n){
+    int maximo=vect[0];
+    for(int i=1; i<n; i++){
+        if(vect[i]>maximo){
+            maximo=vect[i];
+        }
+    }
+    cout << "El maximo es: " << maximo << endl;
+}
+
+int buscarPostMinimo(int *vect, int n){
+    int pos=0;
+    for(int i=1; i<n; i++){
+        if(vect[pos]<vect[i]){
+            pos=i;
+        }
+    }
+    cout << "La posicion del minimo es: " << pos-1 << endl;
+}
+
+int buscarPostMaximo(int *vect, int n){
+    int pos=0;
+    for(int i=1; i<n; i++){
+        if(vect[pos]<vect[i]){
+            pos=i;
+        }
+    }
+    cout << "La posicion del maximo es: " << pos-1<< endl;
+
+}
+
+int main(){
+
+    const int tam=5;
+    int vect[tam]{12,45,36,2,67};
+
+    buscarMinimo(vect, tam);
+    buscarMaximo(vect, tam);
+    buscarPostMinimo(vect, tam);
+    buscarPostMaximo(vect, tam);
+
+
+return 0;
+}

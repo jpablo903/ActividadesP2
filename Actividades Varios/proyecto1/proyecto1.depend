@@ -1,0 +1,37 @@
+# depslib dependency file v1.0
+1690939890 source:c:\users\juan pablo\desktop\tup frgp\programacion 2\ejericicios\proyecto1\proyecto1\main.cpp
+	<iostream>
+	"funciones_vectores.h"
+	"funciones_matrices.h"
+	"funciones_combinados.h"
+
+1690934951 c:\users\juan pablo\desktop\tup frgp\programacion 2\ejericicios\proyecto1\proyecto1\funciones_vectores.h
+
+1690939269 c:\users\juan pablo\desktop\tup frgp\programacion 2\ejericicios\proyecto1\proyecto1\funciones_matrices.h
+
+1690942595 c:\users\juan pablo\desktop\tup frgp\programacion 2\ejericicios\proyecto1\proyecto1\funciones_combinados.h
+
+1691012996 source:c:\users\juan pablo\desktop\tup frgp\segundo cuatrimestre\programacion 2\ejericicios\proyecto1\proyecto1\main.cpp
+	<iostream>
+	"funciones_vectores.h"
+	"funciones_matrices.h"
+	"funciones_combinados.h"
+
+1690934951 c:\users\juan pablo\desktop\tup frgp\segundo cuatrimestre\programacion 2\ejericicios\proyecto1\proyecto1\funciones_vectores.h
+
+1690939269 c:\users\juan pablo\desktop\tup frgp\segundo cuatrimestre\programacion 2\ejericicios\proyecto1\proyecto1\funciones_matrices.h
+
+1691001255 c:\users\juan pablo\desktop\tup frgp\segundo cuatrimestre\programacion 2\ejericicios\proyecto1\proyecto1\funciones_combinados.h
+
+1691021164 source:c:\users\juan pablo\desktop\tup frgp\segundo cuatrimestre\programacion 2\ejericicios\proyecto1\proyecto1\ejercicio2.cpp
+	<iostream>
+	"funciones_ejercicio2.h"
+
+1691021024 c:\users\juan pablo\desktop\tup frgp\segundo cuatrimestre\programacion 2\ejericicios\proyecto1\proyecto1\funciones_ejercicio2.h
+
+1691021218 source:c:\users\juan pablo\desktop\tup frgp\segundo cuatrimestre\programacion 2\ejericicios\proyecto1\proyecto1\ejercicio3.cpp
+	<iostream>
+	"funciones_ejercicio3.h"
+
+1691172320 c:\users\juan pablo\desktop\tup frgp\segundo cuatrimestre\programacion 2\ejericicios\proyecto1\proyecto1\funciones_ejercicio3.h
+
