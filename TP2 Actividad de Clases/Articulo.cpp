@@ -110,6 +110,30 @@ void Archivo::mostrar(){
 
 
 int main(){
+    float valor;
+
+    Archivo a[10];
+
+    for(int i=0;i<3; i++){
+        a[i].cargar();
+        cout << endl;
+    }
+    system("cls");
+
+    cout << "Listado de Articulos" << endl;
+    for(int i=0; i<3; i++){
+        cout << "Articulo " << i+1 << ": " << a[i].getDescripcion() << endl;
+    }
+    cout << endl;
+    cout << "Ingrese un valor: ";
+    cin >> valor;
+
+    for(int i=0; i<3; i++){
+        if(a[i].getPrecio()>valor){
+            cout << "Articulo: " << a[i].getDescripcion() << endl;
+        }
+    }
+
 
 
 return 0;
